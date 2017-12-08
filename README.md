@@ -30,7 +30,7 @@ Line 25 filename extension should match the set handbrake extention on line 27.
 
 # UPDATE: GUI NOW HERE!!
 
-I added a simple XML-Based GUI to the batch script using FroG (Frontend Generator). In the ZIP file is everything needed to run the GUI, including a copy of frog.exe.
+I added a simple XML-Based GUI to the batch script using FroG (Frontend Generator). In the folder is everything needed to run the GUI, including a copy of frog.exe. Download entire "ConvertFrog" folder to use.
 
 To launch the GUI, start the "ConvertFroG" shortcut.
 
