@@ -22,9 +22,8 @@ for /R %a% %%j in (*.*) do (
 	set fpath=!fpath: =_!
 	set trg=!fpath:%src%=%dest%!
 	if not !trg:~-1!==\ (set trg="!trg:_= !\") else (set trg="!trg:_= !")
-	set fnl="!trg:"=!%%~nj.mkv"
+	set fnl="!trg:"=!%%~nj"
 	if not exist !trg! mkdir !trg!
-	set hbset=%~6
-	%handbrake% -i "%%j" -o !fnl! %hbset%) else (echo No need to transcode.)
+	%handbrake% -i "%%j" -o !fnl!.%7 -f %7 %~6) else (echo No need to transcode.)
 )
 cmd /k 
