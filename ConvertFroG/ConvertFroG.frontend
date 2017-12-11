@@ -14,7 +14,10 @@
 					<column>
 						<control type="combobox" caption="Parameter" hint="Select the parameter you would like to compare to your set value.">
 							<item caption="Video Width" commandline="&quot;--Inform=Video;%Width%&quot;" selected="true"/>
+							<item caption="Video Height" commandline="&quot;--Inform=Video;%Height%&quot;"/>
 							<item caption="General Bitrate" commandline="&quot;--Inform=General;%BitRate%&quot;"/>
+							<item caption="File Size" commandline="&quot;--Inform=General;%FileSize%&quot;"/>
+							<item caption="Frame Rate" commandline="&quot;--Inform=General;%FrameRate%&quot;"/>
 						</control>
 					</column>
 					<column>
