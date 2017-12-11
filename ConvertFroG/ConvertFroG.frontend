@@ -20,8 +20,11 @@
 					<column>
 						<control type="combobox" caption="Operator" hint="Set the comparison operator">
 							<item caption="Greater Than" commandline="GTR"/>
+							<item caption="Greater Than or Equal To" commandline="GEQ"/>
 							<item caption="Less Than" commandline="LSS"/>
+							<item caption="Less Than or Equal To" commandline="LEQ"/>
 							<item caption="Equal To" commandline="EQU"/>
+							<item caption="Not Equal To" commandline="NEQ"/>
 						</control>
 					</column>
 					<column>
