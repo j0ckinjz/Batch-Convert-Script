@@ -5,6 +5,7 @@ To launch the GUI, start the "ConvertFroG" shortcut.
 
 You'll be able to set Source and Destination folders via browse folder. Currently *5* MediaInfo parameters are available (BitRate, Width, Height, Framerate, Filesize; more to come). 6 comparison operators are available. You can manually set the value to compare. And lastly, most of the handbrake encode settings are available for manual edit. I plan on GUI'ing this secton but there are a lot of options for handbrake. Refer to HandbrakeCLI FAQ to learn to edit this code. I'll attach printouts of handbrake/mediainfo parameters/help.
 
+Latest version of HandbrakeCLI.exe is too big to upload. Download the CLI from their website and replace version in /bin folder.
 
 # Batch-Convert-Script
 Batch script that will convert video files based on an If statement. Requires Mediainfo &amp; Handbrake CLI.
