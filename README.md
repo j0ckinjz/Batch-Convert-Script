@@ -1,3 +1,11 @@
+# UPDATE: GUI NOW HERE!!
+I added a simple XML-Based GUI to the batch script using FroG (Frontend Generator). In the folder is everything needed to run the GUI, including a copy of frog.exe. Download entire "ConvertFrog" folder to use.
+
+To launch the GUI, start the "ConvertFroG" shortcut.
+
+You'll be able to set Source and Destination folders via browse folder. Currently *5* MediaInfo parameters are available (BitRate, Width, Height, Framerate, Filesize; more to come). 6 comparison operators are available. You can manually set the value to compare. And lastly, most of the handbrake encode settings are available for manual edit. I plan on GUI'ing this secton but there are a lot of options for handbrake. Refer to HandbrakeCLI FAQ to learn to edit this code. I'll attach printouts of handbrake/mediainfo parameters/help.
+
+
 # Batch-Convert-Script
 Batch script that will convert video files based on an If statement. Requires Mediainfo &amp; Handbrake CLI.
 
@@ -27,11 +35,3 @@ Line 20 "If" value should be changed to your desired value for comparison.
 Line 27 should be changed based on the handrbake CLI settings you would like to apply to the output files.
 
 Line 25 filename extension should match the set handbrake extention on line 27.
-
-# UPDATE: GUI NOW HERE!!
-
-I added a simple XML-Based GUI to the batch script using FroG (Frontend Generator). In the folder is everything needed to run the GUI, including a copy of frog.exe. Download entire "ConvertFrog" folder to use.
-
-To launch the GUI, start the "ConvertFroG" shortcut.
-
-You'll be able to set Source and Destination folders via browse folder. Currently 2 MediaInfo parameters are available (BitRate & Width ; more to come). 3 comparison operators are available (Greater than, Lesser than, Equal ; more to come). You can manually set the value to compare. And lastly, most of the handbrake encode settings are available for manual edit. Refer to HandbrakeCLI FAQ to learn to edit this code.
