@@ -1,4 +1,4 @@
-<form caption="ConvertFroG: Batch Video Converter" program="bin\CFscript.bat" icon="bin\CFicon_sm.ico" showconsole="true" width="700" url="https://github.com/j0ckinjz/Batch-Convert-Script" description="Batch Video Converter will scan a directory and subdirectories for video files then parse them through a mediainfo parameter which will compare the returned value to a user set value. The result of the comparison will decide whether the files need encoding or not." author="j0ckinjz">
+<form caption="ConvertFroG: Batch Video Converter" program="bin\CFscript.bat" icon="bin\CFicon_sm.ico" showconsole="true" width="700" url="https://github.com/j0ckinjz/Batch-Convert-Script" description="Batch Video Converter will scan a directory and subdirectories for video files then parse them through a mediainfo parameter which will compare the returned value to a user set value. The result of the comparison will decide whether the files need encoding or not." author="Mashed together by j0ckinjz">
     <control type="tabset">
         <tabsheet caption="General" active="true">
 			<control type="image" filename="bin/banner.png"/>
