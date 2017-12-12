@@ -1,9 +1,9 @@
-<form caption="Batch Video Downconverter" program="bin\downconvert.bat" icon="bin/downconvert.ico" showconsole="true" width="700" url="https://github.com/j0ckinjz/Batch-Convert-Script" description="Batch Video Converter will scan a directory and subdirectories for video files then parse them through a mediainfo parameter which will compare the returned value to a user set value. The result of the comparison will decide whether the files need encoding or not." author="j0ckinjz">
+<form caption="ConvertFroG: Batch Video Converter" program="bin\CFscript.bat" icon="bin\CFicon_sm.ico" showconsole="true" width="700" url="https://github.com/j0ckinjz/Batch-Convert-Script" description="Batch Video Converter will scan a directory and subdirectories for video files then parse them through a mediainfo parameter which will compare the returned value to a user set value. The result of the comparison will decide whether the files need encoding or not." author="j0ckinjz">
     <control type="tabset">
         <tabsheet caption="General" active="true">
-			<control type="image" filename="bin/Downconvert_banner.png"/>
+			<control type="image" filename="bin/banner.png"/>
 			<control type="spacer" height="-35"/>
-			<control type="text" caption="By j0ckinjz" left="11" fontcolor="6592c8" fontsize="8"/>
+			<control type="text" caption="By j0ckinjz" left="15" fontcolor="6592c8" fontsize="8"/>
 			<control type="spacer" height="8"/>
 			<control type="groupbox" caption=" Directories " fontstyle="bold">
 				<control type="selectdir" caption="Source Dir" commandline=" "/>
@@ -12,7 +12,7 @@
 			<control type="groupbox" caption=" MediaInfo Parameters " fontstyle="bold">
 				<control type="columnset">
 					<column>
-						<control type="combobox" caption="Parameter" hint="Select the parameter you would like to compare to your set value.">
+						<control type="combobox" caption="Parameter" width="110" hint="Select the parameter you would like to compare to your set value.">
 							<item caption="Video Width" commandline="&quot;--Inform=Video;%Width%&quot;" selected="true"/>
 							<item caption="Video Height" commandline="&quot;--Inform=Video;%Height%&quot;"/>
 							<item caption="General Bitrate" commandline="&quot;--Inform=General;%BitRate%&quot;"/>
@@ -21,24 +21,24 @@
 						</control>
 					</column>
 					<column>
-						<control type="combobox" caption="Operator" hint="Set the comparison operator">
-							<item caption="Greater Than" commandline="GTR"/>
-							<item caption="Greater Than or Equal To" commandline="GEQ"/>
-							<item caption="Less Than" commandline="LSS"/>
-							<item caption="Less Than or Equal To" commandline="LEQ"/>
-							<item caption="Equal To" commandline="EQU"/>
-							<item caption="Not Equal To" commandline="NEQ"/>
+						<control type="combobox" caption="Operator" width="150" hint="Set the comparison operator">
+							<item caption="Greater Than" commandline="&quot;GTR"/>
+							<item caption="Greater Than or Equal To" commandline="&quot;GEQ"/>
+							<item caption="Less Than" commandline="&quot;LSS"/>
+							<item caption="Less Than or Equal To" commandline="&quot;LEQ"/>
+							<item caption="Equal To" commandline="&quot;EQU"/>
+							<item caption="Not Equal To" commandline="&quot;NEQ"/>
 						</control>
 					</column>
 					<column>
-						<control type="edit" caption="Value" hint="Set value to compare to MediaInfo's returned parameter value." commandline=""/>
+						<control type="edit" caption="Value (in bits)" width="125" hint="Set value to compare to MediaInfos returned parameter value. MUST BE IN BITS" commandline=""/>
 					</column>
 				</control>
 			</control>
 		</tabsheet>
 		<tabsheet caption="Handbrake">
 			<control type="groupbox" caption="Handbrake Parameters" fontstyle="bold">
-				<control type="edit" caption="Handbrake CLI Code" hint="Refer to handbrake cli faq for parameter info" width="400" default="-e x264 -q 20 --vfr -a 1,1 -E av_aac,ac3 -B 192 -w 1280 --keep-display-aspect -x level=4.1:vbv-bufsize=7000:vbv-maxrate=4500" commandline="&quot;"/>
+				<control type="edit" hint="Refer to handbrake cli faq for parameter info" width="640" default="-e x264 -q 20 --vfr -a 1,1 -E av_aac,ac3 -B 192 -w 1280 --keep-display-aspect -x level=4.1:vbv-bufsize=7000:vbv-maxrate=4500" commandline="&quot; &quot;"/>
 				<control type="combobox" caption="Extension">
 					<item caption="mkv" commandline="&quot; mkv"/>
 					<item caption="mp4" commandline="&quot; mp4"/>
