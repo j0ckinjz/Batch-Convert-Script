@@ -11,8 +11,8 @@ Latest version of HandbrakeCLI.exe is too big to upload. Download the CLI from t
 Script is as done as it's going to be. The interface (frog) doesn't have enough power to make a proper GUI for the handbrake settings. I feel leaving it as CLI would provide more flexibility. Updated icon & banner and officially named the GUI "ConvertFroG".
 
 ## Screenshots of Interface
-![Page 1] (https://github.com/j0ckinjz/Batch-Convert-Script/raw/master/imgs/CFtab1.PNG)
-![Page 2] (https://github.com/j0ckinjz/Batch-Convert-Script/raw/master/imgs/CFtab1.PNG)
+![Page 1](https://github.com/j0ckinjz/Batch-Convert-Script/raw/master/imgs/CFtab1.PNG)
+![Page 2](https://github.com/j0ckinjz/Batch-Convert-Script/raw/master/imgs/CFtab1.PNG)
 
 # Batch-Convert-Script
 Batch script that will convert video files based on an If statement. Requires Mediainfo &amp; Handbrake CLI.
