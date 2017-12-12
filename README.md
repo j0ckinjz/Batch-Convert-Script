@@ -7,7 +7,7 @@ You'll be able to set Source and Destination folders via browse folder. Currentl
 
 Latest version of HandbrakeCLI.exe is too big to upload. Download the CLI from their website and replace version in /bin folder.
 
-##Update 2:
+#Update 2:
 Script is as done as it's going to be. The interface (frog) doesn't have enough power to make a proper GUI for the handbrake settings. I feel leaving it as CLI would provide more flexibility. Updated icon & banner and officially named the GUI "ConvertFroG".
 
 # Batch-Convert-Script
