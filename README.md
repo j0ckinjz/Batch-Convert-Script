@@ -23,7 +23,7 @@ How To Edit Script
 
 Line 3,17,19,20 are not required to be changed, but you may change name based on what variable you'll be comparing in "If" statement.
 
-Line 16 should be changed to whatever variable/parameter you would like to compare. There is probably a table listing all available parameters for this, but I can't find it right now. Will update.
+Line 16 should be changed to whatever variable/parameter you would like to compare. See MediaInfo-Parameters.txt for parameters.
 
 Line 20 "If" value should be changed to your desired value for comparison.
 
