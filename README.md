@@ -27,6 +27,6 @@ Line 16 should be changed to whatever variable/parameter you would like to compa
 
 Line 20 "If" value should be changed to your desired value for comparison.
 
-Line 27 should be changed based on the handrbake CLI settings you would like to apply to the output files.
+Line 27 should be changed based on the handbrake CLI settings you would like to apply to the output files.
 
 Line 25 filename extension should match the set handbrake extention on line 27.
