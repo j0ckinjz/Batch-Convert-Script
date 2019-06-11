@@ -30,7 +30,7 @@ exit /b
 
 :sub
 ::Remove spaces from filepath; more prep for find/replace
-Set _file=%filepath: =_%
+Set "_file=%filepath: =_%"
 ::Find/Replace; Replace the IN path with the OUT path to create full out path
 call set "newpath=%%_file:%1=%2%%"
 ::Add spaces back to full OUT path
