@@ -12,5 +12,5 @@ del %result%
 echo File is: "%filepath%"
 echo Width is: %width%
 ::Compare variable to set value; pass onto handbrake if comparison passes.
-if %width% GTR 1280 (call "%~dp0hb.bat" "%hbdest%" "%filepath%")
+if %width% GTR 1280 (call "%~dp0hb.bat" "%hbdest%" "%filepath%") else (Echo No need to transcode.)
 exit /b
